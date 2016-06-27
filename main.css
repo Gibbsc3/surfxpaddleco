@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+.header {
+  color: white;
+  height: 300px;
+}
+
+.logo {
+  width: 40px;
+}
+
+.logo-text {
+  color: #073453;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+.header-links {
+  list-style: none;
+  margin-top: 10px;
+}
+
+.header-links a {
+  color: #073453;
+}
+
+.cover_image {
+  background-image: linear-gradient(rgba(48, 130, 205, 0.6), rgba(48, 130, 205, 0.6)), url("https://unsplash.it/600/400?image=1041");
+  background-size: cover;
+  height: 300px;
+  padding: 10px 15px 0 15px;
+}
+
+.cover_text {
+  background-color: transparent;
+}
+
+.post blockquote {
+  font-size: 20px;
+  color: blue;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.post-author {
+  color: blue;
+}
+
+.post-author img {
+  width: 20px;
+}
+
+.post-author span {
+  margin-left: 20px;
+}
+
+.post-links {
+  display: inline-block;
+  list-style: none;
+}
+
+.profile-image {
+  width: 60px;
+}
+
+.social-list {
+  list-style: none;
+}
+
+.social-list li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.ad figcaption {
+  font-size: 10px;
+}
+
+.ad img {
+  width: 200px;
+}
+
+footer {
+  border-top: 1px solid;
+  background-color: darkblue;
+}
+
+.footer-posts {
+  display: flex;
+  background-color: darkblue;
+}
+
+.footer-post {
+  padding: 30px;
+  flex: 1;
+  height: 200px;
+  background-image: url(https://unsplash.it/400/?random);
+  opacity: .5;
+}
+
+.footer-post h6 {
+  font-size: 15px;
+}
+
+.footer-post:hover {
+  opacity: 1;
+}
+
+.bg-white {
+  background-color: white;
+  padding: 40px 0;
+}
+
+.bg-white h2 {
+  margin: 0;
+}
+
+.footer-nav {
+  list-style: none;
+}
+
+.footer-nav li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.footer-nav a {
+  color: white;
+}
